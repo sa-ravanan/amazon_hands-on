@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="email" value="s.r.saravanan777@gmail.com"></parameter>
+  	<parameter name="number" value="8220515632"></parameter>
+  	<parameter name ="password" value="Sarav$10925"></parameter>
+    <classes>
+      <class name="com.amazon.framework.testcases.TC001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
