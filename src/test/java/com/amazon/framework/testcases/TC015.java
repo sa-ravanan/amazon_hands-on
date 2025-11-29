@@ -17,7 +17,7 @@ public class TC015 extends AmazonBase{
 	public void verifyBrandFilterOption(String productName, String brandName) {
 		SoftAssert soft = new SoftAssert();
 		HomePage home = new HomePage(driver, wait);
-		soft.assertTrue(home.isAmazonLogoDisplayed(), "Home page is not diaplyed successfully");
+		soft.assertTrue(home.isAmazonLogoDisplayed(), "Home page is not diaplyed successfully!");
 
 		SearchResultPage result = home.typeProduct(productName)
 				.clickSearchButton();
