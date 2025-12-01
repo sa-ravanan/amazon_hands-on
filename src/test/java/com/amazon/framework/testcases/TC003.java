@@ -10,11 +10,11 @@ import com.amazon.framework.pages.HomePage;
 public class TC003 extends AmazonBase{
 
 	@Test
-	@Parameters({"email"})
-	public void invalidEmailIdTest(String emailId) {
+	@Parameters({"number"})
+	public void invalidUserIdTest(String number) {
 		HomePage home = new HomePage(driver, wait);
 		String errorMessage = home.clickSigninButton()
-			.enterUserId(emailId)
+			.enterUserId(number)
 			.clickContinueButton()
 			.getDisplayedErrorMessage();
 		

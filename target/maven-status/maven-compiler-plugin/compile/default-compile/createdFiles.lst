@@ -1,1 +1,12 @@
+com\amazon\framework\pages\HomePage.class
+com\amazon\framework\seleniumbase\SeleniumAPI.class
+com\amazon\framework\pages\SearchResultPage.class
+com\amazon\framework\utils\Locators.class
+com\amazon\framework\utils\Browser.class
+com\amazon\framework\pages\SigninPage.class
 com\amazon\framework\seleniumbase\SeleniumBase$1.class
+com\amazon\framework\seleniumbase\SeleniumBase.class
+com\amazon\framework\pages\CartPage.class
+com\amazon\framework\amazonbase\AmazonBase.class
+com\amazon\framework\pages\ProductPage.class
+com\amazon\framework\utils\ExcelData.class

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T20:29:54 IST" name="Suite" finished-at="2025-11-28T20:30:19 IST" duration-ms="24612">
+  <suite started-at="2025-12-01T20:09:19 IST" name="Suite" finished-at="2025-12-01T20:09:59 IST" duration-ms="40424">
     <groups>
     </groups>
-    <test started-at="2025-11-28T20:29:54 IST" name="Test" finished-at="2025-11-28T20:30:19 IST" duration-ms="24612">
-      <class name="com.amazon.framework.testcases.TC001">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC001@24aed80c]" started-at="2025-11-28T20:29:54 IST" name="startApp" finished-at="2025-11-28T20:30:01 IST" duration-ms="6407" status="PASS">
+    <test started-at="2025-12-01T20:09:19 IST" name="Test" finished-at="2025-12-01T20:09:59 IST" duration-ms="40424">
+      <class name="com.amazon.framework.testcases.TC006">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC006@2a5c8d3f]" started-at="2025-12-01T20:09:19 IST" name="startApp" finished-at="2025-12-01T20:09:52 IST" duration-ms="33717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC001@24aed80c]" started-at="2025-11-28T20:30:01 IST" name="validLoginTest" finished-at="2025-11-28T20:30:19 IST" duration-ms="18157" status="PASS">
+        <test-method signature="passwordMaskTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC006@2a5c8d3f]" started-at="2025-12-01T20:09:52 IST" name="passwordMaskTest" finished-at="2025-12-01T20:09:59 IST" duration-ms="6223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,19 +20,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[8220515632]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
                 <![CDATA[Sarav$10925]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-      </class> <!-- com.amazon.framework.testcases.TC001 -->
+        </test-method> <!-- passwordMaskTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC006@2a5c8d3f]" started-at="2025-12-01T20:09:59 IST" name="tearDown" finished-at="2025-12-01T20:09:59 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.framework.testcases.TC006 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

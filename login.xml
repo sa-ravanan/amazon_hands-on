@@ -3,10 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   	<parameter name="email" value="s.r.saravanan777@gmail.com"></parameter>
-  	<parameter name="number" value="8220515632"></parameter>
+  	<parameter name="number" value="822051563"></parameter>
   	<parameter name ="password" value="Sarav$10925"></parameter>
+  	<parameter name="invalidPassword" value="Sar1092"></parameter>
     <classes>
       <class name="com.amazon.framework.testcases.TC001"/>
+      <class name="com.amazon.framework.testcases.TC002"/>
+      <class name="com.amazon.framework.testcases.TC003"/>
+      <class name="com.amazon.framework.testcases.TC004"/>
+      <class name="com.amazon.framework.testcases.TC005"/>
+      <class name="com.amazon.framework.testcases.TC006"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

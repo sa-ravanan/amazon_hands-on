@@ -10,11 +10,11 @@ import com.amazon.framework.pages.HomePage;
 public class TC006 extends AmazonBase{
 	
 	@Test
-	@Parameters({"number" , "password"})
-	public void passwordMaskTest(String number, String password) {
+	@Parameters({"email" , "password"})
+	public void passwordMaskTest(String email, String password) {
 		HomePage home = new HomePage(driver, wait);
 		boolean result = home.clickSigninButton()
-			.enterUserId(number)
+			.enterUserId(email)
 			.clickContinueButton()
 			.enterPassword(password)
 			.verifyPasswordMasking();

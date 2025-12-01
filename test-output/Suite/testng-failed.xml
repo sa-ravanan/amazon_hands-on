@@ -4,14 +4,30 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="number" value="8220515632"/>
     <parameter name="password" value="Sarav$10925"/>
-    <parameter name="email" value="s.r.saravanan777@gmail.com"/>
+    <parameter name="invalidPassword" value="Sar1092"/>
+    <parameter name="email" value="s.r.saravanan7@gmail.com"/>
     <classes>
-      <class name="com.amazon.framework.testcases.TC001">
+      <class name="com.amazon.framework.testcases.TC006">
         <methods>
-          <include name="validLoginTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="passwordMaskTest" invocation-numbers="0"/>
           <include name="startApp"/>
         </methods>
-      </class> <!-- com.amazon.framework.testcases.TC001 -->
+      </class> <!-- com.amazon.framework.testcases.TC006 -->
+      <class name="com.amazon.framework.testcases.TC005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+          <include name="emptyPasswordTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.amazon.framework.testcases.TC005 -->
+      <class name="com.amazon.framework.testcases.TC003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="invalidEmailIdTest" invocation-numbers="0"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- com.amazon.framework.testcases.TC003 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

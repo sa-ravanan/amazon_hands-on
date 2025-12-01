@@ -10,7 +10,7 @@ import com.amazon.framework.pages.HomePage;
 public class TC009 extends AmazonBase{
 
 	@Test
-	@Parameters({"productName"})
+	@Parameters({"invalidProductName"})
 	public void invalidSearchProductTest(String productName) {
 		HomePage home = new HomePage(driver, wait);
 		boolean result = home.typeProduct(productName)

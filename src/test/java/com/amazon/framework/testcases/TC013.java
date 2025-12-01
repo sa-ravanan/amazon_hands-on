@@ -12,7 +12,7 @@ import com.amazon.framework.pages.HomePage;
 public class TC013 extends AmazonBase{
 
 	@Test
-	@Parameters({"productName"})
+	@Parameters({"productName1"})
 	public void pressEnterKeyTest(String productName) {
 		HomePage home = new HomePage(driver, wait);
 		Assert.assertTrue(home.isAmazonLogoDisplayed(), "Home page was not displayed successfully.");

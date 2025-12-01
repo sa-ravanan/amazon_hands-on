@@ -11,11 +11,11 @@ import com.amazon.framework.pages.SigninPage;
 public class TC002 extends AmazonBase{
 	
 	@Test
-	@Parameters({"number" , "password"})
-	public void invalidPasswordTest(String number, String password) {
+	@Parameters({"email" , "invalidPassword"})
+	public void invalidPasswordTest(String email, String password) {
 		HomePage home = new HomePage(driver, wait);
 		AmazonBase base = home.clickSigninButton()
-			.enterUserId(number)
+			.enterUserId(email)
 			.clickContinueButton()
 			.enterPassword(password)
 			.clickSigninButton();
