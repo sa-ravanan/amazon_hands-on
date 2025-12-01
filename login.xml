@@ -7,7 +7,7 @@
   	<parameter name ="password" value="Sarav$10925"></parameter>
   	<parameter name="invalidPassword" value="Sar1092"></parameter>
     <classes>
-      <class name="com.amazon.framework.testcases.TC001"/>
+      <class name="com.amazon.framework.testcases.TC002"/>
       <class name="com.amazon.framework.testcases.TC002"/>
       <class name="com.amazon.framework.testcases.TC003"/>
       <class name="com.amazon.framework.testcases.TC004"/>
