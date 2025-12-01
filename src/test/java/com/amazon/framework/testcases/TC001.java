@@ -13,7 +13,7 @@ public class TC001 extends AmazonBase{
 	@Parameters({"email" , "password"})
 	public void validLoginTest(String email, String password) {
 		HomePage home = new HomePage(driver, wait);
-		Assert.assertTrue(home.isAmazonLogoDisplayed(), "Home page was not displayed successfully");
+		Assert.assertTrue(home.isAmazonLogoDisplayed(), "Home page was not displayed successfully!");
 		home.clickSigninButton()
 			.waitUntilPageLoaded()
 			.signin(email, password);
