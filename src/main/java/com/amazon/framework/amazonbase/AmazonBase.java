@@ -1,6 +1,7 @@
 package com.amazon.framework.amazonbase;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.openqa.selenium.WebElement;
@@ -26,12 +27,15 @@ public class AmazonBase extends SeleniumBase{
 	@BeforeMethod
 	public void startApp() {
 		setBrowser(url);
-		try {
-			WebElement continueButton = element(Locators.XPath, "//button[.='Continue shopping']");
-			if(isDisplayed(continueButton)) {
-				click(continueButton);
+		
+		List<WebElement> continueButton = elements(Locators.XPath, "//button[.='Continue shopping']");
+		if(!continueButton.isEmpty()) {
+			WebElement button = continueButton.get(0);
+			if(isDisplayed(button)) {
+				click(button);
 			}
-		} catch (NoSuchElementException e) {
+		}
+		else {
 			System.out.println("Continue shopping popup did not appear this time.");
 		}
 	}

@@ -9,48 +9,13 @@
     <parameter name="completeName" value="Calculator"/>
     <parameter name="productName" value="Mobile"/>
     <classes>
-      <class name="com.amazon.framework.testcases.TC007">
-        <methods>
-          <include name="typeIntoSeachBoxTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC007 -->
       <class name="com.amazon.framework.testcases.TC012">
         <methods>
+          <include name="tearDown"/>
           <include name="startApp"/>
           <include name="searchButtonTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.amazon.framework.testcases.TC012 -->
-      <class name="com.amazon.framework.testcases.TC010">
-        <methods>
-          <include name="checkCaseSensitiveSearchBoxTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC010 -->
-      <class name="com.amazon.framework.testcases.TC015">
-        <methods>
-          <include name="verifyBrandFilterOption"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC015 -->
-      <class name="com.amazon.framework.testcases.TC011">
-        <methods>
-          <include name="partialInputTest" invocation-numbers="0"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC011 -->
-      <class name="com.amazon.framework.testcases.TC009">
-        <methods>
-          <include name="invalidSearchProductTest" invocation-numbers="0"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC009 -->
-      <class name="com.amazon.framework.testcases.TC014">
-        <methods>
-          <include name="placeHolderTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC014 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

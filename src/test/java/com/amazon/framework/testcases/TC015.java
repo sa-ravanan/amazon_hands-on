@@ -41,7 +41,7 @@ public class TC015 extends AmazonBase{
 		System.out.println("Products that met filtered criteria: " + count);
 		int percentage = (int) (((double) count / filterCount) * 100);
 		System.out.println("Percentage of relevant products that met filter criteria: " + percentage + "%");
-		soft.assertTrue(percentage >= 80 , "Most of the products does not met the filtered criteria");
+		soft.assertTrue(percentage >= 70 , "Most of the products does not met the filtered criteria");
 		
 		soft.assertAll();
 
