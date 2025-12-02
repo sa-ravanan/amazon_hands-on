@@ -27,8 +27,8 @@ import com.amazon.framework.utils.Locators;
 
 public class SeleniumBase implements SeleniumAPI{
 	
-	int timeOuts = 10;
-	int maxWaitTime = 20;
+	int timeOuts = 5;
+	int maxWaitTime = 5;
 	
 	protected RemoteWebDriver driver;
 	protected WebDriverWait wait = null;
