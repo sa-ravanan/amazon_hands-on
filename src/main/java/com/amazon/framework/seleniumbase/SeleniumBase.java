@@ -27,8 +27,8 @@ import com.amazon.framework.utils.Locators;
 
 public class SeleniumBase implements SeleniumAPI{
 	
-	int timeOuts = 5;
-	int maxWaitTime = 5;
+	int timeOuts = 10;
+	int maxWaitTime = 10;
 	
 	protected RemoteWebDriver driver;
 	protected WebDriverWait wait = null;
@@ -110,39 +110,48 @@ public class SeleniumBase implements SeleniumAPI{
 
 	public WebElement element(Locators type, String value) {
 		WebElement ele = null;
-		switch(type) {
-			case Id :
-				ele = driver.findElement(By.id(value));
-				break;
-			case Name :
-				ele = driver.findElement(By.name(value));
-				break;
-			case ClassName :
-				ele = driver.findElement(By.className(value));
-				break;
-			case TagName :
-				ele = driver.findElement(By.tagName(value));
-				break;
-			case LinkText :
-				ele = driver.findElement(By.linkText(value));
-				break;
-			case PartialLinkText :
-				ele = driver.findElement(By.partialLinkText(value));
-				break;
-			case XPath :
-				ele = driver.findElement(By.xpath(value));
-				break;
-			case CssSelector :
-				ele = driver.findElement(By.cssSelector(value));
-				break;
-			default :
-				System.out.println("Locators is not defined");
+		try {
+			switch(type) {
+				case Id :
+					ele = driver.findElement(By.id(value));
+					break;
+				case Name :
+					ele = driver.findElement(By.name(value));
+					break;
+				case ClassName :
+					ele = driver.findElement(By.className(value));
+					break;
+				case TagName :
+					ele = driver.findElement(By.tagName(value));
+					break;
+				case LinkText :
+					ele = driver.findElement(By.linkText(value));
+					break;
+				case PartialLinkText :
+					ele = driver.findElement(By.partialLinkText(value));
+					break;
+				case XPath :
+					ele = driver.findElement(By.xpath(value));
+					break;
+				case CssSelector :
+					ele = driver.findElement(By.cssSelector(value));
+					break;
+				default :
+					System.out.println("Locators is not defined");
+			}
+		} catch (NoSuchElementException e) {
+			System.out.println("Element not found: " + e.getMessage());
 		}
 		return ele;
 	}
 	
 	public WebElement element(By locator) {
-		WebElement element = driver.findElement(locator);
+		WebElement element = null;
+		try {
+			element = driver.findElement(locator);
+		} catch (NoSuchElementException e) {
+			System.out.println("Element not found: " + e.getMessage());
+		}
 		return element;
 		
 	}

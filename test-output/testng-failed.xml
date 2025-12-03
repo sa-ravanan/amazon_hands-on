@@ -2,20 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="brandName" value="POCO"/>
-    <parameter name="partialName" value="Calc"/>
-    <parameter name="invalidProductName" value="rojerogivb oonj ovnovj qeofejnv oo oqvwnn "/>
-    <parameter name="productName1" value="Bicycle"/>
-    <parameter name="completeName" value="Calculator"/>
-    <parameter name="productName" value="Mobile"/>
+    <parameter name="number" value="822051563"/>
+    <parameter name="password" value="Sarav$10925"/>
+    <parameter name="invalidPassword" value="Sar1092"/>
+    <parameter name="email" value="s.r.saravanan777@gmail.com"/>
     <classes>
-      <class name="com.amazon.framework.testcases.TC012">
+      <class name="com.amazon.framework.testcases.TC002">
         <methods>
-          <include name="tearDown"/>
+          <include name="invalidPasswordTest" invocation-numbers="0"/>
           <include name="startApp"/>
-          <include name="searchButtonTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.amazon.framework.testcases.TC012 -->
+      </class> <!-- com.amazon.framework.testcases.TC002 -->
+      <class name="com.amazon.framework.testcases.TC004">
+        <methods>
+          <include name="emptyUserIdTest"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- com.amazon.framework.testcases.TC004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

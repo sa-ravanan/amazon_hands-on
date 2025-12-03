@@ -1,97 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T22:49:28 IST" name="Suite" finished-at="2025-12-02T22:49:59 IST" duration-ms="30486">
+  <suite started-at="2025-12-03T18:36:59 IST" name="Suite" finished-at="2025-12-03T18:37:15 IST" duration-ms="15612">
     <groups>
     </groups>
-    <test started-at="2025-12-02T22:49:28 IST" name="Test" finished-at="2025-12-02T22:49:59 IST" duration-ms="30486">
-      <class name="com.amazon.framework.testcases.TC012">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC012@279fedbd]" started-at="2025-12-02T22:49:28 IST" name="startApp" finished-at="2025-12-02T22:49:32 IST" duration-ms="4065" status="PASS">
+    <test started-at="2025-12-03T18:36:59 IST" name="Test" finished-at="2025-12-03T18:37:15 IST" duration-ms="15612">
+      <class name="com.amazon.framework.testcases.TC004">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC004@5dda768f]" started-at="2025-12-03T18:36:59 IST" name="startApp" finished-at="2025-12-03T18:37:13 IST" duration-ms="13671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="searchButtonTest(java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC012@279fedbd]" started-at="2025-12-02T22:49:32 IST" name="searchButtonTest" finished-at="2025-12-02T22:49:39 IST" duration-ms="6970" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mobile]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Majority of the products are not relevant to the entered keyword expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Majority of the products are not relevant to the entered keyword expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.amazon.framework.testcases.TC012.searchButtonTest(TC012.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="emptyUserIdTest()[pri:0, instance:com.amazon.framework.testcases.TC004@5dda768f]" started-at="2025-12-03T18:37:13 IST" name="emptyUserIdTest" finished-at="2025-12-03T18:37:15 IST" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC012@279fedbd]" started-at="2025-12-02T22:49:39 IST" name="tearDown" finished-at="2025-12-02T22:49:40 IST" duration-ms="320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.framework.testcases.TC012 -->
-      <class name="com.amazon.framework.testcases.TC015">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC015@707194ba]" started-at="2025-12-02T22:49:40 IST" name="startApp" finished-at="2025-12-02T22:49:48 IST" duration-ms="8288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApp -->
-        <test-method signature="verifyBrandFilterOption(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC015@707194ba]" started-at="2025-12-02T22:49:48 IST" name="verifyBrandFilterOption" finished-at="2025-12-02T22:49:58 IST" duration-ms="10458" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mobile]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[POCO]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBrandFilterOption -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC015@707194ba]" started-at="2025-12-02T22:49:58 IST" name="tearDown" finished-at="2025-12-02T22:49:59 IST" duration-ms="323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.framework.testcases.TC015 -->
+        </test-method> <!-- emptyUserIdTest -->
+      </class> <!-- com.amazon.framework.testcases.TC004 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

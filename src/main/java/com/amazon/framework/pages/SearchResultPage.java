@@ -35,7 +35,13 @@ public class SearchResultPage extends AmazonBase{
 	
 	public boolean isNoResultFound() {
 		WebElement message = element(noResultFoundMessage);
-		return isDisplayed(message);
+		if(message == null) {
+			return false;
+		}
+		else {
+			return isDisplayed(message);
+		}
+		
 	}
 	
 	public SearchResultPage selectBrand(String brandName) {

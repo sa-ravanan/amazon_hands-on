@@ -17,6 +17,7 @@ public class TC009 extends AmazonBase{
 			.clickSearchButton()
 			.isNoResultFound();
 		
+		System.out.println("No Result Message is Displayed: " + result);
 		Assert.assertTrue(result);
 	}
 }
