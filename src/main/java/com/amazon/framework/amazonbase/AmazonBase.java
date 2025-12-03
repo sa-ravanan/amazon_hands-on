@@ -40,7 +40,7 @@ public class AmazonBase extends SeleniumBase{
 		}
 	}
 
-	//@AfterMethod
+	@AfterMethod
 	public void tearDown() {
 		quit();
 	}
