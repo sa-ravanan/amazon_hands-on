@@ -9,14 +9,14 @@
   <parameter name="completeName" value="Calculator"></parameter>
   <parameter name="brandName" value="POCO"></parameter>
   <classes>
-  	<!--<class name="com.amazon.framework.testcases.TC007"/>
+  	<class name="com.amazon.framework.testcases.TC007"/>
   	<class name="com.amazon.framework.testcases.TC008"/>
   	<class name="com.amazon.framework.testcases.TC009"/>
   	<class name="com.amazon.framework.testcases.TC010"/>
   	<class name="com.amazon.framework.testcases.TC011"/>
   	<class name="com.amazon.framework.testcases.TC012"/>
-  	<class name="com.amazon.framework.testcases.TC013"/>-->
-  	<class name="com.amazon.framework.testcases.TC012"/>
+  	<class name="com.amazon.framework.testcases.TC013"/>
+  	<class name="com.amazon.framework.testcases.TC014"/>
   	<class name="com.amazon.framework.testcases.TC015"/>
   </classes>
   </test> <!-- Test -->
