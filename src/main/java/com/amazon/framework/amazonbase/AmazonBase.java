@@ -2,7 +2,6 @@ package com.amazon.framework.amazonbase;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
