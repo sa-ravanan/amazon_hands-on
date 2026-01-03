@@ -7,18 +7,13 @@
     <parameter name="invalidPassword" value="Sar1092"/>
     <parameter name="email" value="s.r.saravanan777@gmail.com"/>
     <classes>
-      <class name="com.amazon.framework.testcases.TC002">
+      <class name="com.amazon.framework.testcases.TC006">
         <methods>
-          <include name="invalidPasswordTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="passwordMaskTest" invocation-numbers="0"/>
           <include name="startApp"/>
         </methods>
-      </class> <!-- com.amazon.framework.testcases.TC002 -->
-      <class name="com.amazon.framework.testcases.TC004">
-        <methods>
-          <include name="emptyUserIdTest"/>
-          <include name="startApp"/>
-        </methods>
-      </class> <!-- com.amazon.framework.testcases.TC004 -->
+      </class> <!-- com.amazon.framework.testcases.TC006 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

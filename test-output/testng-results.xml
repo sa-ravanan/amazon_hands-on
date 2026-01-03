@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-03T18:54:55 IST" name="Suite" finished-at="2026-01-03T18:56:43 IST" duration-ms="107897">
+  <suite started-at="2026-01-03T22:23:45 IST" name="Suite" finished-at="2026-01-03T22:25:05 IST" duration-ms="79287">
     <groups>
     </groups>
-    <test started-at="2026-01-03T18:54:55 IST" name="Test" finished-at="2026-01-03T18:56:43 IST" duration-ms="107897">
+    <test started-at="2026-01-03T22:23:45 IST" name="Test" finished-at="2026-01-03T22:25:05 IST" duration-ms="79287">
       <class name="com.amazon.framework.testcases.TC002">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC002@68e5eea7]" started-at="2026-01-03T18:55:24 IST" name="startApp" finished-at="2026-01-03T18:55:36 IST" duration-ms="11811" status="PASS">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC002@3d34d211]" started-at="2026-01-03T22:23:45 IST" name="startApp" finished-at="2026-01-03T22:23:59 IST" duration-ms="13285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC002@68e5eea7]" started-at="2026-01-03T18:55:36 IST" name="invalidPasswordTest" finished-at="2026-01-03T18:55:41 IST" duration-ms="5367" status="PASS">
+        <test-method signature="invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC002@3d34d211]" started-at="2026-01-03T22:23:59 IST" name="invalidPasswordTest" finished-at="2026-01-03T22:24:03 IST" duration-ms="4695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,57 +27,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPasswordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC002@68e5eea7]" started-at="2026-01-03T18:55:41 IST" name="tearDown" finished-at="2026-01-03T18:55:42 IST" duration-ms="631" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC002@3d34d211]" started-at="2026-01-03T22:24:03 IST" name="tearDown" finished-at="2026-01-03T22:24:04 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amazon.framework.testcases.TC002 -->
-      <class name="com.amazon.framework.testcases.TC001">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC001@4009e306]" started-at="2026-01-03T18:54:55 IST" name="startApp" finished-at="2026-01-03T18:55:12 IST" duration-ms="16618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC001@4009e306]" started-at="2026-01-03T18:55:12 IST" name="validLoginTest" finished-at="2026-01-03T18:55:23 IST" duration-ms="11722" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[s.r.saravanan777@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sarav$10925]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC001@4009e306]" started-at="2026-01-03T18:55:23 IST" name="tearDown" finished-at="2026-01-03T18:55:24 IST" duration-ms="386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.framework.testcases.TC001 -->
       <class name="com.amazon.framework.testcases.TC004">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC004@2d2ffcb7]" started-at="2026-01-03T18:55:57 IST" name="startApp" finished-at="2026-01-03T18:56:09 IST" duration-ms="11785" status="PASS">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC004@63070bab]" started-at="2026-01-03T22:24:19 IST" name="startApp" finished-at="2026-01-03T22:24:31 IST" duration-ms="11782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="emptyUserIdTest()[pri:0, instance:com.amazon.framework.testcases.TC004@2d2ffcb7]" started-at="2026-01-03T18:56:09 IST" name="emptyUserIdTest" finished-at="2026-01-03T18:56:10 IST" duration-ms="1623" status="PASS">
+        <test-method signature="emptyUserIdTest()[pri:0, instance:com.amazon.framework.testcases.TC004@63070bab]" started-at="2026-01-03T22:24:31 IST" name="emptyUserIdTest" finished-at="2026-01-03T22:24:33 IST" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUserIdTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC004@2d2ffcb7]" started-at="2026-01-03T18:56:10 IST" name="tearDown" finished-at="2026-01-03T18:56:11 IST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC004@63070bab]" started-at="2026-01-03T22:24:33 IST" name="tearDown" finished-at="2026-01-03T22:24:33 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amazon.framework.testcases.TC004 -->
       <class name="com.amazon.framework.testcases.TC003">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC003@291b4bf5]" started-at="2026-01-03T18:55:42 IST" name="startApp" finished-at="2026-01-03T18:55:53 IST" duration-ms="11798" status="PASS">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC003@38e79ae3]" started-at="2026-01-03T22:24:04 IST" name="startApp" finished-at="2026-01-03T22:24:16 IST" duration-ms="11968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="invalidUserIdTest(java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC003@291b4bf5]" started-at="2026-01-03T18:55:53 IST" name="invalidUserIdTest" finished-at="2026-01-03T18:55:57 IST" duration-ms="3239" status="PASS">
+        <test-method signature="invalidUserIdTest(java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC003@38e79ae3]" started-at="2026-01-03T22:24:16 IST" name="invalidUserIdTest" finished-at="2026-01-03T22:24:19 IST" duration-ms="3075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserIdTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC003@291b4bf5]" started-at="2026-01-03T18:55:57 IST" name="tearDown" finished-at="2026-01-03T18:55:57 IST" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC003@38e79ae3]" started-at="2026-01-03T22:24:19 IST" name="tearDown" finished-at="2026-01-03T22:24:19 IST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amazon.framework.testcases.TC003 -->
       <class name="com.amazon.framework.testcases.TC006">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC006@31f9b85e]" started-at="2026-01-03T18:56:27 IST" name="startApp" finished-at="2026-01-03T18:56:39 IST" duration-ms="11767" status="PASS">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC006@291b4bf5]" started-at="2026-01-03T22:24:49 IST" name="startApp" finished-at="2026-01-03T22:25:01 IST" duration-ms="12179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="passwordMaskTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC006@31f9b85e]" started-at="2026-01-03T18:56:39 IST" name="passwordMaskTest" finished-at="2026-01-03T18:56:43 IST" duration-ms="3981" status="PASS">
+        <test-method signature="passwordMaskTest(java.lang.String,java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC006@291b4bf5]" started-at="2026-01-03T22:25:01 IST" name="passwordMaskTest" finished-at="2026-01-03T22:25:04 IST" duration-ms="3132" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -111,20 +85,58 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.clear()" because "element" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "element" is null
+at com.amazon.framework.seleniumbase.SeleniumBase.type(SeleniumBase.java:281)
+at com.amazon.framework.pages.SigninPage.enterPassword(SigninPage.java:51)
+at com.amazon.framework.testcases.TC006.passwordMaskTest(TC006.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordMaskTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC006@31f9b85e]" started-at="2026-01-03T18:56:43 IST" name="tearDown" finished-at="2026-01-03T18:56:43 IST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC006@291b4bf5]" started-at="2026-01-03T22:25:04 IST" name="tearDown" finished-at="2026-01-03T22:25:05 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amazon.framework.testcases.TC006 -->
       <class name="com.amazon.framework.testcases.TC005">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC005@762ef0ea]" started-at="2026-01-03T18:56:11 IST" name="startApp" finished-at="2026-01-03T18:56:23 IST" duration-ms="12132" status="PASS">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.amazon.framework.testcases.TC005@68e5eea7]" started-at="2026-01-03T22:24:33 IST" name="startApp" finished-at="2026-01-03T22:24:45 IST" duration-ms="11922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="emptyPasswordTest(java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC005@762ef0ea]" started-at="2026-01-03T18:56:23 IST" name="emptyPasswordTest" finished-at="2026-01-03T18:56:26 IST" duration-ms="3395" status="PASS">
+        <test-method signature="emptyPasswordTest(java.lang.String)[pri:0, instance:com.amazon.framework.testcases.TC005@68e5eea7]" started-at="2026-01-03T22:24:45 IST" name="emptyPasswordTest" finished-at="2026-01-03T22:24:49 IST" duration-ms="3460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPasswordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC005@762ef0ea]" started-at="2026-01-03T18:56:26 IST" name="tearDown" finished-at="2026-01-03T18:56:27 IST" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.framework.testcases.TC005@68e5eea7]" started-at="2026-01-03T22:24:49 IST" name="tearDown" finished-at="2026-01-03T22:24:49 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
