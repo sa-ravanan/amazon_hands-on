@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.framework.testcases.TC001">
+      <class name="com.amazon.framework.testcases.TC014">
         <methods>
-          <include name="validLoginTest"/>
+          <include name="tearDown"/>
+          <include name="placeHolderTest"/>
           <include name="startApp"/>
         </methods>
-      </class> <!-- com.amazon.framework.testcases.TC001 -->
+      </class> <!-- com.amazon.framework.testcases.TC014 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,6 +25,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.amazon.framework.utils.Browser;
 import com.amazon.framework.utils.Locators;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class SeleniumBase implements SeleniumAPI{
 	
 	int timeOuts = 10;
@@ -37,6 +39,7 @@ public class SeleniumBase implements SeleniumAPI{
 		try {
 			switch(browserName) {
 				case Chrome :
+					WebDriverManager.chromedriver().setup();
 					ChromeOptions options = new ChromeOptions();
 					options.addArguments("--disable-notifications");
 					driver = new ChromeDriver(options);

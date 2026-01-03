@@ -99,7 +99,7 @@ public class SigninPage extends AmazonBase{
 	public boolean verifyPasswordMasking() {
 		WebElement inputField = element(passwordField);
 		String result = getAttributeValue(inputField, "type");
-		System.out.println("type Attribute: " + result);
+		System.out.println("Attribute type: " + result);
 		if(result.contains("password")) {
 			return true;
 		}
