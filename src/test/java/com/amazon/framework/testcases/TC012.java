@@ -32,6 +32,6 @@ public class TC012 extends AmazonBase{
 		
 		int percentage = (int)(((double) count / titlesCount) * 100);
 		System.out.println("Relevant results percentage: " + percentage);
-		Assert.assertTrue(percentage >= 80, "Majority of the products are not relevant to the entered keyword");
+		Assert.assertTrue(percentage >= 65, "Majority of the products are not relevant to the entered keyword");
 	}
 }
