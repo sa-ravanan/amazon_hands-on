@@ -45,6 +45,7 @@
                     <suiteXmlFile>login.xml</suiteXmlFile>
                     <suiteXmlFile>search.xml</suiteXmlFile>
                 </suiteXmlFiles>
+                <rerunFailingTestsCount>1</rerunFailingTestsCount>
             </configuration>
         </plugin>
     </plugins>
